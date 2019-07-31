@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#keep this in mind
-#export PATH='/home/wyattlab/Desktop/AndrewRNAseq_Pipeline':$PATH
-
-#source_dire="/home/wyattlab/Desktop/AndrewRNAseq_Pipeline/trimGalored"
-#anne_source_dir='/media/wyattlab/Data/DataDrive/MSU_miRNA_Proj/mRNA_Sternberger_MSU/trimGalored'
-
 #the name of the file used in the process
 meta_data_filename=$3
 subread_dir=$4
@@ -86,19 +80,15 @@ read paired
 if [ $paired == "y" ]
 then
 	echo "Running trimgalore-pairedEnd.sh"
-	#sh /home/wyattlab/Desktop/AndrewRNAseq_Pipeline/trimgalore-pairedEnd.sh 
+	sh /home/wyattlab/Desktop/AndrewRNAseq_Pipeline/trimgalore-pairedEnd.sh 
 	cd ${source_dire}/trimGalored/
 fi
 echo -n "Current directory is: "
 pwd
+
+#TrimGalore
 #performing trimgalore
 #sh /home/wyattlab/Desktop/AndrewRNAseq_Pipeline/trimgalore-singleEnd.sh 
-
-
-
-#moving into directory where trimmed files were moved to start running Star Alignment
-#This will use the argument for source directory
-
 
 #where genome goes
 #running Star Alignment, may want to use this in case files are too big: --limitBAMsortRAM 6091545403
