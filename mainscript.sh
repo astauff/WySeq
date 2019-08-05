@@ -77,12 +77,25 @@ cd $source_dire
 echo -n "Is your read data paired (y/n)?"
 read paired
 
+#finding out if data is paired
+
+echo -n "Is your read data paired (y/n)?"
+read paired
+
 if [ $paired == "y" ]
 then
 	echo "Running trimgalore-pairedEnd.sh"
 	sh /home/wyattlab/Desktop/AndrewRNAseq_Pipeline/trimgalore-pairedEnd.sh 
 	cd ${source_dire}/trimGalored/
+
+elif [ $paired == "n" ]
+then
+	echo "Running trimgalore-singleEnd.sh"
+	sh /home/wyattlab/Desktop/AndrewRNAseq_Pipeline/trimgalore-singleEnd.sh
+	cd ${source_dire}/trimGalored/
+
 fi
+
 echo -n "Current directory is: "
 pwd
 
