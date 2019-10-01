@@ -27,6 +27,6 @@ Required packages
 Example Call of WyattSeq
 ========================
 
-wyattseq.sh ***Insert arguments here***
+./wyattseq.sh mouse '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer' McCallMetadata.csv '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/subread_output'
 
 *** WyattSeq only works for Arabidopsis, Viola and Mouse ***
