@@ -27,6 +27,6 @@ Required packages
 Example Call of WyattSeq
 ========================
 
-./wyattseq.sh mouse '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer' McCallMetadata.csv '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/subread_output'
+./wyattseq.sh mouse '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer' '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/McCallMetadata.csv' '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/trimGalored/alignmentOutputs/subreadCounts'
 
 *** WyattSeq only works for Arabidopsis, Viola and Mouse ***
