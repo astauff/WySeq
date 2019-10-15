@@ -5,7 +5,7 @@ July, 2019.
 
 Contributors: Colin Kruse, Andrew Stauffer
 
-Version: 1.0
+Version: 1.2
 
 Usage Notes
 ===========
@@ -13,7 +13,7 @@ Usage Notes
 
 - The program uses a mixture of bash scripts, Python and R.
 
-- To function properly, WyattSeq takes in four command line arguments. Those arguments are, in order: species, working directory, metadata file and subread count output directory.
+- To function properly, WyattSeq takes in three command line arguments. Those arguments are, in order: species, working directory and metadata file.
 
 - Users must change pathways to .gtf and genome files at the top of the main script.
 
@@ -27,6 +27,7 @@ Required packages
 Example Call of WyattSeq
 ========================
 
-./wyattseq.sh mouse '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer' '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/McCallMetadata.csv' '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/trimGalored/alignmentOutputs/subreadCounts'
+./wyattseq.sh mouse '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer'  /media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/McCallMetadata.csv
+
 
 *** WyattSeq only works for Arabidopsis, Viola and Mouse ***
