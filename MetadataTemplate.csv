@@ -1,0 +1,2 @@
+sampleid	group	block	forwardfile	reversefile	species
+Sham1	Sham	1s	FileName_2_V1N_1_S1_L001_R1_001.fastq.gz	FileName_2_V1N_1_S1_L001_R2_001.fastq.gz	mouse
