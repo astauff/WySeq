@@ -1,4 +1,4 @@
-=== WyattSeq ===
+=== WySeq ===
 
 Developed in The Wyatt Lab. Ohio University, Athens, OH.
 July, 2019.
@@ -9,15 +9,15 @@ Version: 1.2
 
 Usage Notes
 ===========
-- WyattSeq is an automated RNAseq pipeline that utilizes the StarAlign and TrimGalore packages.
+- WySeq is an automated RNAseq pipeline that utilizes the StarAlign and TrimGalore packages.
 
 - The program uses a mixture of bash scripts, Python and R.
 
-- To function properly, WyattSeq takes in three command line arguments. Those arguments are, in order: species, working directory and metadata file.
+- To function properly, WySeq takes in three command line arguments. Those arguments are, in order: species, working directory and metadata file.
 
 - Users must change pathways to .gtf and genome files at the top of the main script.
 
-- The help arguments for WyattSeq is --help as the first argument in the command line.
+- The help arguments for WySeq is --help as the first argument in the command line.
 
 Required packages
 =================
@@ -27,7 +27,7 @@ Required packages
 Example Call of WyattSeq
 ========================
 
-./wyattseq.sh mouse '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer'  /media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/McCallMetadata.csv
+./wyseq.sh mouse '/media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer'  /media/wyattlab/Data/DataDrive/mccall-kelly/190701-transfer/McCallMetadata.csv
 
 
-*** WyattSeq only works for Arabidopsis, Viola and Mouse ***
+*** WySeq only works for Arabidopsis, Viola and Mouse ***
