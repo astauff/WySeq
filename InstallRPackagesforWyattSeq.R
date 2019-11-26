@@ -1,6 +1,6 @@
-BiocManager::install(c("AnnotationDbi"))
+BiocManager::install(c("AnnotationDbi","org.Mm.eg.db","impute","preprocessCore"))
 BiocManager::install(c("S4Vectors","IRanges","pathview"))
-install.packages(c("ParamHelpers"))
+install.packages(c("ParamHelpers","WGCNA"))
 install.packages(c("xml2"))
 install.packages(c("cowplot","tidyr","scales","reshape2","pheatmap"))
 install.packages(c("dplyr","plyr","gridExtra"))
